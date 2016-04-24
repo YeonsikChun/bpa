@@ -6,9 +6,18 @@
 	
 	<display-name>bpa</display-name>	
 
+	<servlet>
+		<servlet-name>bpa</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>bpa</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
 	<welcom-file-list>
 		<welcom-file>index.jsp</welcom-file>
 	</welcom-file-list>
-
 	
 </web-app>
