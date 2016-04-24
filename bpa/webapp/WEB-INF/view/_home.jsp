@@ -1,11 +1,20 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>BPA</title>
+<title>SLiPP :: 회원가입</title>
 
-<%@ include file="/WEB-INF/commons/_header.jspf" %>
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="/css/docs.css" rel="stylesheet">
+<link href="/css/main.css" rel="stylesheet">
+<style>
+body {
+	padding-top: 40px;
+}
+</style>
 
 </head>
 <body>
@@ -14,7 +23,7 @@
 	<header class="jumbotron subhead" id="oerview">
 	<div class="container">
 		<h1>BPA</h1>
-		<p class="lead">Sustaninable Life, Programming, Programmer</p>
+		<p class="lead">Beauty Parlor, Beauty Wedding, Beauty Nail</p>
 	</div>
 	</header>
 	
